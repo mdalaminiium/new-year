@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section */
+.header-section {
+    background-image: url('/images/banner/banner1.png');
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    margin-bottom: 30px;
+}
+
+.header-content {
+    text-align: right;
+    position: absolute;
+    top: 300px;
+    right: 200px;
+    width: 450px;
+
+}
+
+.header-content h1 {
+    font-size: 48px;
+}
+
+.header-content p {
+    font-size: 20px;
+}
+
+.btn-contact {
+    background-color: #F15B22;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+/* Failure section */
+
+.failure-section {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin: 0 200px;
+    padding: 40px;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    color: #16D887;
+}
+
+.failure-content {
+    width: 400px;
+    margin-left: 30px;
+}
+
+/* Plan section */
+
+.plan {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.plan-section {
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* Positive mind */
+
+.positive-mind {
+    background-image: linear-gradient(#ff00f747, #00ffb89c), url('/images/watch.png');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.positive-content {
+    padding-top: 200px;
+    padding: 100px;
+}
+
+.positive-content h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.positive-content button {
+    color: #F15B22;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Clients say */
+.client-section {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.client-section h1 {
+    font-size: 50px;
+}
+
+.client-say {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    width: 90%;
+}
+
+.clients {
+    box-shadow: 5px 5px 5px 2px gray;
+
+}
+
+/* Footer section */
+.footer-section {
+    background-color: black;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.futute {
+    width: 40%;
+    margin: 50px;
+    color: white;
+}
+
+.social img {
+    padding: 10px;
+}
+
+/* Subscribe section */
+.subscribe {
+    margin: 50px;
+    margin-right: 250px;
+    color: white;
+}
+
+.subscribe input {
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.subscribe button {
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #F15B22;
+    font-weight: bold;
+}
